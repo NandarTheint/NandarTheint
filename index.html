@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="jp">
 
 <head>
   <title></title>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href="css/style.css" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet" />
@@ -21,24 +22,24 @@
   <section id="showcase" class="container">
     <div class="introduction">
       <div class="profile-pic-wrapper">
-        <img class="profile-pic" src="images/profile.svg" width="330" height="auto" />
+        <img class="profile-pic" src="images/avatar-bg.svg" width=" 350" height="350" />
       </div>
       <div class="about">
         <div class="about-text-wrapper">
           <p>
-            <span class="name">NANDAR THEINT THEINT THU</span> </br>
-            <span class="position">System Developer</span></br></br>
-            <span class="about-info">Have experience in developing both Web application and windows
-              application. Currently working on the Water Bill Management System
-              which is developed with Java,PL/SQL . Always enthusiate to learn
-              new things and explore.</span>
+            <span class="name">ナンダ ティン テイン トウ</span> </br>
+            <span class="position">システム開発者</span></br></br>
+            <span class="about-info">大学卒業（2017）後、社会人になってからずっとシステム開発者として活動してまいりました。
+              WEBアプリケーション開発・デスクトップアプリケーション開発の両方に経験がありまして、色々なプロジェクトに参画させていただいております。
+              新しいスキルを身につけたい気持ちが強くて、日々の自習を心掛けており、モバイルアプリケーションも組み立てたりしています。
+            </span>
           </p>
         </div>
       </div>
       <div class="coloring-div"></div>
     </div>
     <div class="skill-info">
-      <div class="skill-info-wrapper">
+      <div class="skill-info-wrapper" data-aos="fade-right" data-aos-delay="100" data-aos-duration="700">
         <div class="skill-icon">
           <img class="svgIcon" src="images/javaicon.svg" alt="java" />
         </div>
@@ -73,15 +74,14 @@
 
   <!-- Projects -->
   <section id="Project" class="container">
-    <h1 class="section-title">Projects</h1>
+    <h1 class="section-title">プロジェクト</h1>
     <div class="project-intro">
-
       <!-- Project 1 -->
-      <div class="project-wrapper border-second-color">
+      <div class="project-wrapper" data-aos="fade-up" data-aos-delay="100" data-aos-duration="700">
         <!-- Project Summarize -->
         <div class="project-summarize">
-          <div class="img-blog border-second-color">
-            <img class="proj-img" src="images/html_css_javascript.png" width="150px" height="auto" />
+          <div class="img-blog">
+            <img class="proj-img" src="images/proj-suidou.png" width="150px" height="auto" />
           </div>
           <div class="proj-desc proj-desc-box-second">
             <p>水道の料金を管理したり、納付書とかハガキを出力するWEBシステム
@@ -108,19 +108,19 @@
 
           </div>
           <div class="proj-skills">
-            <div class="proj-skill-tag proj-skill-tag-second">
+            <div class="proj-skill-tag">
               <img class="skill-tag" src="images/no background/java-icon_noBG.svg" alt="java" />
               <label>JAVA</label>
             </div>
-            <div class="proj-skill-tag proj-skill-tag-second">
+            <div class="proj-skill-tag">
               <img class="skill-tag" src="images/no background/spring-icon_noBG.svg" alt="SPRING" />
               <label>SPRING</label>
             </div>
-            <div class="proj-skill-tag proj-skill-tag-second">
+            <div class="proj-skill-tag">
               <img class="skill-tag" src="images/no background/database-icon-noBG.svg" alt="PL/SQL" />
               <label>PL/SQL</label>
             </div>
-            <div class="proj-skill-tag proj-skill-tag-second">
+            <div class="proj-skill-tag">
               <img class="skill-tag" src="images/no background/vueJS-icon-noBG.svg" alt="JAVASCRIPT" />
               <label>VUE.JS</label>
             </div>
@@ -129,11 +129,11 @@
       </div>
 
       <!-- Project ２ -->
-      <div class="project-wrapper border-second-color">
+      <div class="project-wrapper" data-aos="fade-up" data-aos-delay="100" data-aos-duration="700">
         <!-- Project Summarize -->
         <div class="project-summarize">
-          <div class="img-blog border-second-color">
-            <img class="proj-img" src="images/html_css_javascript.png" width="150px" height="auto" />
+          <div class="img-blog">
+            <img class="proj-img" src="images/proj-ecsite.png" width="150px" height="auto" />
           </div>
           <div class="proj-desc proj-desc-box-second">
             <p>商品在庫管理、売買状況と物流などを管理するためのWEBアプリケーション
@@ -157,19 +157,19 @@
             </p>
           </div>
           <div class="proj-skills">
-            <div class="proj-skill-tag proj-skill-tag-second">
+            <div class="proj-skill-tag">
               <img class="skill-tag" src="images/no background/java-icon_noBG.svg" alt="java" />
               <label>JAVA</label>
             </div>
-            <div class="proj-skill-tag proj-skill-tag-second">
+            <div class="proj-skill-tag">
               <img class="skill-tag" src="images/no background/spring-icon_noBG.svg" alt="SPRING" />
               <label>SPRING</label>
             </div>
-            <div class="proj-skill-tag proj-skill-tag-second">
+            <div class="proj-skill-tag">
               <img class="skill-tag" src="images/no background/database-icon-noBG.svg" alt="Oracle SQL" />
               <label>OracleSql</label>
             </div>
-            <div class="proj-skill-tag proj-skill-tag-second">
+            <div class="proj-skill-tag">
               <img class="skill-tag" src="images/no background/javascript-icon-noBG.svg" alt="JAVASCRIPT" />
               <label>JAVASCRIPT</label>
             </div>
@@ -178,11 +178,11 @@
       </div>
 
       <!-- Project 3 -->
-      <div class="project-wrapper border-pri-color project-wrapper-box-pri">
+      <div class="project-wrapper" data-aos="fade-up" data-aos-delay="100" data-aos-duration="700">
         <!-- Project Summarize -->
         <div class="project-summarize">
-          <div class="img-blog border-pri-color">
-            <img class="proj-img" src="images/vb.net.jpeg" width="150px" height="auto" />
+          <div class="img-blog">
+            <img class="proj-img" src="images/proj-zeikinQR.png" width="150px" height="auto" />
           </div>
           <div class="proj-desc proj-desc-box-pri">
             <p>
@@ -223,11 +223,11 @@
       </div>
 
       <!-- Project 4 -->
-      <div class="project-wrapper border-second-color ">
+      <div class="project-wrapper" data-aos="fade-up" data-aos-delay="100" data-aos-duration="700">
         <!-- Project Summarize -->
         <div class="project-summarize">
-          <div class="img-blog border-second-color">
-            <img class="proj-img" src="images/spring.png" width="150px" height="auto" />
+          <div class="img-blog">
+            <img class="proj-img" src="images/proj-kanshisystem.svg" width="150px" height="auto" />
           </div>
           <div class="proj-desc proj-desc-box-second">
             <p>在庫管理や物流監視のウェブアプリケーション</p>
@@ -237,7 +237,7 @@
         <div class="project-contribute">
           <div class="work-contribute">
             <h4>０４｜中国工場向け基幹システム開発</h4>
-            <p>APIの開発を実施し、超表出力のフロントの画面も作成しました。</p>
+            <p>APIの開発を実施し、帳票出力のフロントの画面も作成しました。</p>
             <p>
               <span class="fa-solid fa-business-time"></span>
               <span>2021年10月 〜 2022年02月</span>
@@ -248,19 +248,19 @@
             </p>
           </div>
           <div class="proj-skills">
-            <div class="proj-skill-tag proj-skill-tag-second">
+            <div class="proj-skill-tag">
               <img class="skill-tag" src="images/no background/java-icon_noBG.svg" alt="java" />
               <label>JAVA</label>
             </div>
-            <div class="proj-skill-tag proj-skill-tag-second">
+            <div class="proj-skill-tag">
               <img class="skill-tag" src="images/no background/spring-icon_noBG.svg" alt="SPRING" />
               <label>SPRING</label>
             </div>
-            <div class="proj-skill-tag proj-skill-tag-second">
+            <div class="proj-skill-tag">
               <img class="skill-tag" src="images/no background/vueJS-icon-noBG.svg" alt="VUE.JS" />
               <label>VUE.JS</label>
             </div>
-            <div class="proj-skill-tag proj-skill-tag-second">
+            <div class="proj-skill-tag">
               <img class="skill-tag" src="images/no background/testing-img-blue-noBG.svg" alt="JUNIT" />
               <label>JUNIT</label>
             </div>
@@ -269,11 +269,11 @@
       </div>
 
       <!-- Project 5 -->
-      <div class="project-wrapper border-second-color ">
+      <div class="project-wrapper" data-aos="fade-up" data-aos-delay="100" data-aos-duration="700">
         <!-- Project Summarize -->
         <div class="project-summarize">
-          <div class="img-blog border-second-color">
-            <img class="proj-img" src="images/sqlserverlogo.png" width="150px" height="auto" />
+          <div class="img-blog">
+            <img class="proj-img" src="images/proj-projectManagement.svg" width="150px" height="auto" />
           </div>
           <div class="proj-desc proj-desc-box-second">
             <p>プロジェクトとタスクを管理するためのWEBアプリケーション</p>
@@ -283,7 +283,7 @@
         <div class="project-contribute">
           <div class="work-contribute">
             <h4>０５｜PMSダッシュボード開発</h4>
-            <p>プロジェクトとタスク詳細を管理する画面と状況・金額を表示するグラフの非同期画面のバックエンドとフロントの両方を担当しました。</p>
+            <p>プロジェクトとタスク詳細を管理する画面と進捗状況・金額を表示するグラフの非同期画面のバックエンドとフロントの両方を担当しました。</p>
             <p>
               <span class="fa-solid fa-business-time"></span>
               <span>2020年05月 〜 2020年07月</span>
@@ -294,19 +294,19 @@
             </p>
           </div>
           <div class="proj-skills">
-            <div class="proj-skill-tag proj-skill-tag-second">
+            <div class="proj-skill-tag">
               <img class="skill-tag" src="images/no background/CSharp_icon_noBG.svg" alt="C#" />
               <label>C#</label>
             </div>
-            <div class="proj-skill-tag proj-skill-tag-second">
+            <div class="proj-skill-tag">
               <img class="skill-tag" src="images/no background/javascript-icon-noBG.svg" alt="JAVASCRIPT" />
               <label>JAVASCRIPT</label>
             </div>
-            <div class="proj-skill-tag proj-skill-tag-second">
+            <div class="proj-skill-tag">
               <img class="skill-tag" src="images/no background/asp_icon_noBG.svg" alt="ASP.NET" />
               <label>ASP.NET</label>
             </div>
-            <div class="proj-skill-tag proj-skill-tag-second">
+            <div class="proj-skill-tag">
               <img class="skill-tag" src="images/no background/database-icon-noBG.svg" alt="SQL Server" />
               <label>SQL Server</label>
             </div>
@@ -315,11 +315,11 @@
       </div>
 
       <!-- Project 6 -->
-      <div class="project-wrapper border-second-color ">
+      <div class="project-wrapper" data-aos="fade-up" data-aos-delay="100" data-aos-duration="700">
         <!-- Project Summarize -->
         <div class="project-summarize">
-          <div class="img-blog border-second-color">
-            <img class="proj-img" src="images/sqlserverlogo.png" width="150px" height="auto" />
+          <div class="img-blog">
+            <img class="proj-img" src="images/proj-compensate.svg" width="150px" height="auto" />
           </div>
           <div class="proj-desc proj-desc-box-second">
             <p>メーカー補償の請求、回収という機能のあるWEBシステム</p>
@@ -340,7 +340,7 @@
             </p>
           </div>
           <div class="proj-skills">
-            <div class="proj-skill-tag proj-skill-tag-second">
+            <div class="proj-skill-tag">
               <img class="skill-tag" src="images/no background/VisualStudio6-icon-noBG.svg" alt="VB6" />
               <label>VB6</label>
             </div>
@@ -350,11 +350,11 @@
       </div>
 
       <!-- Project 7 -->
-      <div class="project-wrapper border-second-color ">
+      <div class="project-wrapper" data-aos="fade-up" data-aos-delay="100" data-aos-duration="700">
         <!-- Project Summarize -->
         <div class="project-summarize">
-          <div class="img-blog border-second-color">
-            <img class="proj-img" src="images/sqlserverlogo.png" width="150px" height="auto" />
+          <div class="img-blog">
+            <img class="proj-img" src="images/proj-ecobuy.svg" width="150px" height="auto" />
           </div>
           <div class="proj-desc proj-desc-box-second">
             <p>商品のQRコードを出力するWindows Application</p>
@@ -364,7 +364,7 @@
         <div class="project-contribute">
           <div class="work-contribute">
             <h4>０７｜Ecobuyラベル発行システム開発</h4>
-            <p>少し単純なシステムであり、設計書からテストまで全部一人で担当いたしました。</p>
+            <p>少し単純なシステムであり、設計書からテストまでの全ての工程を一人で担当いたしました。</p>
             <p>
               <span class="fa-solid fa-business-time"></span>
               <span>2020年09月 〜 2020年09月</span>
@@ -375,11 +375,11 @@
             </p>
           </div>
           <div class="proj-skills">
-            <div class="proj-skill-tag proj-skill-tag-second">
+            <div class="proj-skill-tag">
               <img class="skill-tag" src="images/no background/CSharp_icon_noBG.svg" alt="C#" />
               <label>C#</label>
             </div>
-            <div class="proj-skill-tag proj-skill-tag-second">
+            <div class="proj-skill-tag">
               <img class="skill-tag" src="images/no background/database-icon-noBG.svg" alt="Oracle SQL" />
               <label>Oracle</label>
             </div>
@@ -388,11 +388,11 @@
       </div>
 
       <!-- Project 8 -->
-      <div class="project-wrapper border-second-color ">
+      <div class="project-wrapper" data-aos="fade-up" data-aos-delay="100" data-aos-duration="700">
         <!-- Project Summarize -->
         <div class="project-summarize">
-          <div class="img-blog border-second-color">
-            <img class="proj-img" src="images/multilanguage.svg" width="150px" height="auto" />
+          <div class="img-blog">
+            <img class="proj-img" src="images/proj-multilanguage.svg" width="150px" height="auto" />
           </div>
           <div class="proj-desc proj-desc-box-second">
             <p>プロジェクトとタスクを管理するためのWEBアプリケーション</p>
@@ -413,19 +413,19 @@
             </p>
           </div>
           <div class="proj-skills">
-            <div class="proj-skill-tag proj-skill-tag-second">
+            <div class="proj-skill-tag">
               <img class="skill-tag" src="images/no background/CSharp_icon_noBG.svg" alt="C#" />
               <label>C#</label>
             </div>
-            <div class="proj-skill-tag proj-skill-tag-second">
+            <div class="proj-skill-tag">
               <img class="skill-tag" src="images/no background/javascript-icon-noBG.svg" alt="JAVASCRIPT" />
               <label>JAVASCRIPT</label>
             </div>
-            <div class="proj-skill-tag proj-skill-tag-second">
+            <div class="proj-skill-tag">
               <img class="skill-tag" src="images/no background/asp_icon_noBG.svg" alt="ASP.NET" />
               <label>ASP.NET</label>
             </div>
-            <div class="proj-skill-tag proj-skill-tag-second">
+            <div class="proj-skill-tag">
               <img class="skill-tag" src="images/no background/database-icon-noBG.svg" alt="SQL Server" />
               <label>SQL Server</label>
             </div>
@@ -434,10 +434,10 @@
       </div>
 
       <!-- Project 9 -->
-      <div class="project-wrapper border-second-color ">
+      <div class="project-wrapper" data-aos="fade-up" data-aos-delay="100" data-aos-duration="700">
         <!-- Project Summarize -->
         <div class="project-summarize">
-          <div class="img-blog border-second-color">
+          <div class="img-blog">
             <img class="proj-img" src="images/UIPath-Orange-logo 1.svg" width="150px" height="auto" />
           </div>
           <div class="proj-desc proj-desc-box-second">
@@ -461,11 +461,11 @@
             </p>
           </div>
           <div class="proj-skills">
-            <div class="proj-skill-tag proj-skill-tag-second">
+            <div class="proj-skill-tag">
               <img class="skill-tag" src="images/no background/vbnet-icon-noBG.svg" alt="VB.NET" />
               <label>VB.NET</label>
             </div>
-            <div class="proj-skill-tag proj-skill-tag-second">
+            <div class="proj-skill-tag">
               <img class="skill-tag" src="images/no background/uipath-icon-noBG.svg" alt="UiPath" />
               <label>UiPath</label>
             </div>
@@ -479,7 +479,7 @@
 
   <!-- Skills -->
   <section class="container">
-    <h1 class="section-title">SKILLs</h1>
+    <h1 class="section-title">スキル</h1>
     <div class="skills-container">
       <p>JAVA</p>
       <div class="skill-type-container">
@@ -509,12 +509,20 @@
       <div class="skill-type-container">
         <div class="skills plsql"></div>
       </div>
+      <p>AJAX</p>
+      <div class="skill-type-container">
+        <div class="skills ajax"></div>
+      </div>
+      <p>Vue.JS</p>
+      <div class="skill-type-container">
+        <div class="skills vue"></div>
+      </div>
     </div>
 
     <!--Contact Me-->
     <div class="contact">
       <div class="first">
-        <p>CONTACT ME</p>
+        <p>連絡先</p>
       </div>
       <div class="shaped">
 
@@ -539,9 +547,9 @@
   </footer>
 
 
-  <script>
-
-  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script type="text/javascript" src="script/main.js"></script>
 </body>
 
 </html>
