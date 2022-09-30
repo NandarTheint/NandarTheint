@@ -90,7 +90,7 @@ h4 {
   justify-content: space-between;
   background: linear-gradient(to bottom,
       white 0%,
-      white 30%,
+      white 25%,
       var(--primary-color) 30%,
       var(--primary-color) 100%);
   padding-bottom: 100px;
