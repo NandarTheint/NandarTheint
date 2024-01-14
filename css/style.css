@@ -308,6 +308,18 @@ h4 {
   background-color: #ffc900;
 }
 
+.php {
+  width: 75%;
+  height: inherit;
+  background-color: #4477CE;
+}
+
+.aws {
+  width: 50%;
+  height: inherit;
+  background-color: #FF9800;
+}
+
 .c-sharp {
   width: 68%;
   height: inherit;
@@ -327,7 +339,7 @@ h4 {
 }
 
 .uipath {
-  width: 80%;
+  width: 78%;
   height: inherit;
   background-color: #3b9ae1;
 }
